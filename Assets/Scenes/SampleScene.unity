@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 148235156}
   - component: {fileID: 148235155}
   - component: {fileID: 148235154}
+  - component: {fileID: 148235157}
   m_Layer: 0
   m_Name: Cube (GetAxisDown)
   m_TagString: Untagged
@@ -218,6 +219,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 148235152}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &148235157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 148235152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63a2f9e2587446d4891bcf44b484859a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &185512950
 GameObject:
   m_ObjectHideFlags: 0
@@ -230,6 +243,7 @@ GameObject:
   - component: {fileID: 185512954}
   - component: {fileID: 185512953}
   - component: {fileID: 185512952}
+  - component: {fileID: 185512955}
   m_Layer: 0
   m_Name: Cube(GetAxis)
   m_TagString: Untagged
@@ -313,6 +327,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 185512950}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &185512955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 185512950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19c505c651f6ed347b23d83ca7c97cd7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &219360408
 GameObject:
   m_ObjectHideFlags: 0
